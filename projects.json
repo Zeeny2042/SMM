@@ -1,0 +1,22 @@
+{
+  "Test1": {
+    "path": "D:\\Projects\\SMM\\projects\\Test1",
+    "type": "custom",
+    "version": "custom",
+    "ram": "2G",
+    "port": "25565",
+    "max_players": "20",
+    "created": "2025-11-22 23:18:03",
+    "last_loaded": "2025-11-22 23:19:04"
+  },
+  "TEST2": {
+    "path": "D:\\Projects\\SMM\\projects\\TEST2",
+    "type": "custom",
+    "version": "custom",
+    "ram": "2G",
+    "port": "25565",
+    "max_players": "40",
+    "created": "2025-11-22 23:26:41",
+    "last_loaded": "2025-11-22 23:26:46"
+  }
+}
