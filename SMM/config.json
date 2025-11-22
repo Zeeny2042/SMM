@@ -1,0 +1,33 @@
+{
+  "core_urls": {
+    "Purpur": "https://api.purpurmc.org/v2/purpur/{version}/latest/download",
+    "Paper": "https://api.papermc.io/v2/projects/paper/versions/{version}/builds/latest/downloads/paper-{version}-latest.jar",
+    "Fabric": "https://meta.fabricmc.net/v2/versions/loader/{version}/0.14.21/0.11.2/server/jar",
+    "Forge": "https://maven.minecraftforge.net/net/minecraftforge/forge/{version}/forge-{version}-installer.jar",
+    "Vanilla": "https://piston-data.mojang.com/v1/objects/{hash}/server.jar"
+  },
+  "vanilla_hashes": {
+    "1.21.4": "84194a2f286ef7c14ed7ce0090dba59902951553",
+    "1.21.1": "84194a2f286ef7c14ed7ce0090dba59902951553",
+    "1.20.6": "84194a2f286ef7c14ed7ce0090dba59902951553",
+    "1.20.1": "15c777e2cdf05598e0c6fba5fec1cfd2c9751b95",
+    "1.19.4": "8f3112a1049751cc472ec13e397eade5336ca7ae",
+    "1.18.2": "c8f83c5655308435b3dcf03c06d9fe8740a77469",
+    "1.17.1": "943d9876b0dcecc7d0d0b5eabf0e8b2c733c75c1",
+    "1.16.5": "1b557e7b033b583cd9f66746b7a9a1eb5de295b8"
+  },
+  "available_versions": {
+    "Purpur": ["1.21.4", "1.21.1", "1.20.6", "1.20.1", "1.19.4", "1.18.2", "1.17.1", "1.16.5"],
+    "Paper": ["1.21.4", "1.21.1", "1.20.6", "1.20.1", "1.19.4", "1.18.2", "1.17.1", "1.16.5"],
+    "Fabric": ["1.21.4", "1.21.1", "1.20.6", "1.20.1", "1.19.4", "1.18.2", "1.17.1", "1.16.5"],
+    "Forge": ["1.21.4", "1.21.1", "1.20.6", "1.20.1", "1.19.4", "1.18.2", "1.17.1", "1.16.5"],
+    "Vanilla": ["1.21.4", "1.21.1", "1.20.6", "1.20.1", "1.19.4", "1.18.2", "1.17.1", "1.16.5"]
+  },
+  "default_settings": {
+    "projects_path": "projects",
+    "cores_path": "cores",
+    "default_ram": "2G",
+    "server_port": "25565",
+    "max_players": "20"
+  }
+}
